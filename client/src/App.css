@@ -11,8 +11,13 @@
   --black: #2c3e50;
   --even: #000000;
   --leader: #fff;
+<<<<<<< HEAD
+  --github: #24292f;
+  --white: #fff; /* hello */
+=======
   --github: #24292f; /* this */
   --white: #fff;
+>>>>>>> 03a0dabadbd7dfc5b23ba9821bfede151bce4103
   --border: 0.1rem solid rgba(0, 0, 0, 0.2);
   --sidebar-margin-closed: 11.5rem;
   --sidebar-transition-speed: 0.3s;
