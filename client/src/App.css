@@ -11,13 +11,8 @@
   --black: #2c3e50;
   --even: #000000;
   --leader: #fff;
-<<<<<<< HEAD
   --github: #24292f;
-  --white: #fff; /* hello */
-=======
-  --github: #24292f; /* this */
   --white: #fff;
->>>>>>> 03a0dabadbd7dfc5b23ba9821bfede151bce4103
   --border: 0.1rem solid rgba(0, 0, 0, 0.2);
   --sidebar-margin-closed: 11.5rem;
   --sidebar-transition-speed: 0.3s;
@@ -7728,11 +7723,14 @@ height: 70rem;
   .courses ul#tabs{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    
   }
   .courses ul#tabs li{
     width: 8rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
+
+
   }
   .heading{
     margin-left: 4rem;
@@ -8139,12 +8137,17 @@ height: 70rem;
   }
   .courses ul#tabs{
     margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
     margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
   }
   .courses ul#tabs li{
     width: 10rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    
   }
   .courses .box{
     min-width: 38rem;
