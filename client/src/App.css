@@ -93,7 +93,7 @@ body {
   --eventSideTabFilter: blur(1.2rem);
   --eventSideTabBgcolor: rgba(49, 182, 192, 0.301);
   --eventSideTabShadow:0 1rem 5rem rgba(223, 220, 220, 0.5);
---bgImage: url("./components/images/lightbg.gif");
+/* --bgImage: url("./components/images/lightbg.gif"); */
 --bgImageFilter: blur(3rem) brightness(1.8);
 --quickBoxShadow: 9rem 5rem 66rem 3rem rgb(190 190 190 / 63%);
 --quickBoxFilter:  blur(3rem) brightness(0.95);
@@ -2099,8 +2099,8 @@ section .comments {
   color: var(--whyUs);
 }
 .reviews .box-container:hover .box {
-  filter: blur(15px);
-  transform: scale(0.5);
+  filter: blur(0px);
+  transform: scale(1.04);
   opacity: 0.5;
 }
 .reviews .box-container .box:hover {
