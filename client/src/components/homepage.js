@@ -248,44 +248,7 @@ const Home = () => {
         </section>
       </section>
       <div class="container">
-        <div class="footer-cta pt-5 ">
-          <div class="row">
-            <div class="col-xl-4 col-md-4 mb-30">
-              <Link to="https://www.google.com/maps?ll=23.239329,72.638731&z=14&t=m&hl=en-US&gl=US&mapclient=embed&cid=16447216888229830794">
-                <div class="single-cta">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <div class="cta-text">
-                    <h4>Find us</h4>
-                    <span>By your side</span>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div class="col-xl-4 col-md-4 mb-30">
-              <Link to="https://chat.whatsapp.com/KKbEWaxNaxt1OI9EVtJxm9">
-                <div class="single-cta">
-                  <i class="fab fa-whatsapp"></i>
-                  <div class="cta-text">
-                    <h4>Join our Group</h4>
-                    <span>Click Here</span>
-                  </div>
-                </div>
-              </Link>
-            </div>
-
-            <div class="col-xl-4 col-md-4 mb-30">
-              <Link to="mailto:collegpt@gmail.com">
-                <div class="single-cta">
-                  <i class="far fa-envelope-open"></i>
-                  <div class="cta-text">
-                    <h4>Mail us</h4>
-                    <span>collegpt@gmail.com</span>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          </div>
-        </div>
+       
         <div class="footer-main">
           {cardData.map((ele, index) => {
             return (

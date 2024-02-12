@@ -1,0 +1,38 @@
+.mithiline{
+    margin-top:100px;
+    margin-bottom: 20px;
+    height: 0px;
+    width: 100%;
+    border: 1px solid #2c3e50;
+  }
+  
+  .footcon{
+    height: 200px;
+    background:transparent;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fot{
+    margin-top: 50px;
+    height: max-content;
+    width: max-content;
+    color: #ffffff;
+  }
+  
+  .fot p{
+    margin-left: 170px;
+    font-weight: 600;
+    font-size: 19px;
+  }
+  
+  .fot .a{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  
+  .fot .a:hover{
+    text-decoration: underline;
+  }

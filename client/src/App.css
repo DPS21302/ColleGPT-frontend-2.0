@@ -3900,6 +3900,9 @@ body.dark .card-item-title {
   padding-bottom: 0.8rem !important;
   margin-left: 20rem;
   border: 1px solid black;
+  -webkit-box-shadow: -9px -9px 126px 26px rgba(153, 134, 245, 0.75);
+-moz-box-shadow: -9px -9px 126px 26px rgba(242, 242, 242, 0.75);
+box-shadow: -9px -9px 126px 26px rgba(68, 39, 183, 0.75);
 }
 
 
