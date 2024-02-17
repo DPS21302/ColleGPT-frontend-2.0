@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
 // njdf
+import "./Style.css"
 import { reducer, initialState } from "./reducers/userReducer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
