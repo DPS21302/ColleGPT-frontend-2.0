@@ -83,6 +83,7 @@ const Routing = () => {
 
     const allowedPaths = [
       "/login",
+      "/",
       "/register",
       "/otp",
       "/resetpassword",
